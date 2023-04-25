@@ -16,20 +16,6 @@ html {
   min-height: 100%;
 }
 
-body:after {
-  content: "";
-  position: fixed; /* stretch a fixed position to the whole screen */
-  top: 0;
-  height: 100vh; /* fix for mobile browser address bar appearing disappearing */
-  left: 0;
-  right: 0;
-  z-index: -1; /* needed to keep in the background */
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
 .header-wrapper {
   padding-bottom: 30px;
 }
@@ -60,12 +46,18 @@ body:after {
     /* rgba(0, 0, 0, 0.55) url("https://picsum.photos/id/198/1920/1080") no-repeat; */
       rgba(0, 0, 0, 0.55) url("../image/pre-wed-1.png") no-repeat;
   /* rgba(0, 0, 0, 0.55) url("https://picsum.photos/id/374/1920/1080") no-repeat; */
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-size: cover;
   background-position-x: center;
   color: white;
   box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   font-family: "Commissioner", sans-serif;
+}
+
+@media only screen and (min-device-width: 480px) {
+  .hero {
+    background-attachment: fixed;
+  }
 }
 
 .hero .title {
