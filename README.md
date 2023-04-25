@@ -1,6 +1,6 @@
-# Wedding Landing Page - Daeng Sherly Menikah
+# Wedding Landing Page - Gian Dita Menikah
 
-![Thumbnail](/image/thumbnail-web-sherly-daeng-menikah.png)
+![Thumbnail](/image/thumbnail-web-dita-gian-menikah.png)
 
 
 # Section/Feature
@@ -18,10 +18,6 @@
 
 - Bulma CSS (https://bulma.io)
 
-# Info
-- Live version check at: https://sherly.dae.ng/
-- Or check demo at: https://sherly-daeng-menikah.netlify.app/
-- Check my web at: https://daengdoang.com :)
 
 # Fonts
 - Rouge Script (Google Font)
